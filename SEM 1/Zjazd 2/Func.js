@@ -1,4 +1,4 @@
-//1 basic function
+//1 basic function example
 // function sayHello() {
 //   console.log("Hello there");
 // }
