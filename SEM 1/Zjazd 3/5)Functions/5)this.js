@@ -24,3 +24,33 @@
 //console.log(obj.getThisId());
 //console.log(obj.getId());
 //console.log(obj.getOuterId());
+
+//3
+// let id = 2;
+
+// let obj = {
+//   id: 1,
+//   getId: function() {
+//     console.log(id);
+//   }
+// };
+
+// for (let i = 0; i < 1; i++) {
+//   let id = 3;
+//   obj.getId();
+// }
+
+// 4
+// let id = 2;
+
+// for (let i = 0; i < 1; i++) {
+//   let id = 3;
+
+//   let obj = {
+//     id: 1,
+//     getId: function() {
+//       console.log(id);
+//     }
+//   };
+//   obj.getId();
+// }
