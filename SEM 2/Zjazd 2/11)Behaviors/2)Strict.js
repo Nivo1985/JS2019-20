@@ -7,9 +7,36 @@
 // show("test");
 // console.log(innerParam);
 
+// "use strict";
+// function show(param) {
+//   innerParam = param;
+//   console.log(param);
+// }
+// console.log("ORDER TEST");
+// show("test");
+// console.log(innerParam);
+
+// "use strict";
+// let innerParam;
+// function show(param) {
+//   innerParam = param;
+//   console.log(param);
+// }
+// console.log("ORDER TEST");
+// show("test");
+// console.log(innerParam);
+
 // function show(param) {
 //   "use strict";
 //   innerParam = param;
+//   console.log(param);
+// }
+// show("test");
+// console.log(innerParam);
+
+// function show(param) {
+//   innerParam = param;
+//   ("use strict");
 //   console.log(param);
 // }
 // show("test");
@@ -50,3 +77,9 @@
 //   console.log(this);
 // }
 // foo.call(this);
+
+// "use strict";
+// function foo(arg) {
+//   console.log(arg);
+// }
+// foo(global);

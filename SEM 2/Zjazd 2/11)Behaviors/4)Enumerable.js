@@ -30,6 +30,7 @@
 //   console.log(key);
 // }
 // console.log(obj.b);
+// console.log(obj["b"]);
 
 // var obj = {
 //   c: "C Value"

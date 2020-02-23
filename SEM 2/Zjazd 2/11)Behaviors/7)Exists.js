@@ -3,10 +3,10 @@ var myObject = {
   c: undefined
 };
 
-console.log(myObject.a); // 2
-console.log(myObject.b); // undefined
-console.log(myObject.c); // undefined
-console.log(myObject.constructor); // function
+console.log(myObject.a);
+console.log(myObject.b);
+console.log(myObject.c);
+console.log(myObject.constructor);
 
 // Uses prototype
 console.log("a" in myObject); // true
