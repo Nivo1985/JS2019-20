@@ -1,5 +1,3 @@
-let myVar = 1;
-
 const myRevealingModule = (function() {
   let privateVar = "Peter";
   const publicVar = "Hello World";
@@ -9,7 +7,9 @@ const myRevealingModule = (function() {
   }
 
   function publicSetName(name) {
+    console.log("publicMethod start");
     privateVar = name;
+    console.log("publicMethod end");
   }
 
   function publicGetName() {

@@ -1,4 +1,4 @@
-// 1
+// // 1
 // class Car {
 //   constructor() {
 //     this.cost = function() {
@@ -78,21 +78,21 @@
 // car.autoPark();
 
 // 4
-// class Car {
-//   constructor() {
-//     this.cost = function() {
-//       return 20000;
-//     };
+class Car {
+  constructor() {
+    this.cost = function() {
+      return 20000;
+    };
 
-//     this.desc = "basic";
-//   }
-// }
-// function addParking() {
-//   Car.prototype.autoPark = () => console.log("Auto parking...");
-// }
+    this.desc = "basic";
+  }
+}
+function addParking() {
+  Car.prototype.autoPark = () => console.log("Auto parking...");
+}
 
-// const car = new Car();
-// addParking();
+const car = new Car();
+addParking();
 
-// console.log(car);
-// car.autoPark();
+console.log(car);
+car.autoPark();
